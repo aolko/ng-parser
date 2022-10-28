@@ -1,12 +1,8 @@
 {
     "require": {
         "masterminds/html5": "^2.7",
-        "fabpot/goutte": "^4.0",
         "simplehtmldom/simplehtmldom": "dev-master",
-        "symfony/panther": "^2.0",
-        "dbrekelmans/bdi": "^1.0",
         "kint-php/kint": "^4.2",
-        "dibi/dibi": "^4.2",
-        "twig/twig": "^3.4"
+        "dibi/dibi": "^4.2"
     }
 }

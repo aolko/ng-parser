@@ -15,6 +15,10 @@ $database = new Dibi\Connection([
 $client = new HtmlWeb();
 $client_file = new HtmlDocument();
 
+/*
+ * TODO: Organize into a class
+ */
+
 function htmlt($content="",$message=["type"=>"","body"=>""]){
     if (isset($message["body"]) && !empty($message["body"])) {
         if (isset($message['icon']) && !empty($message['icon'])){
