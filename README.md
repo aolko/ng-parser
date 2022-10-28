@@ -7,4 +7,4 @@ Newgrounds user data parser
 - **movies** - Scrape the movies by `username`
 
 ## How to use
-Use the `?mode=` mode and `&u=` username to scrape the content and add it to the database
+Use the `?mode=` mode and `&u=` username to scrape the content and add it to the database. Make sure you have an sqlite database `ngdb.db`.
