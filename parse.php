@@ -7,6 +7,9 @@ use simplehtmldom\HtmlDocument;
 $database = new Dibi\Connection([
     'driver'        => 'sqlite',
     'database'      => 'ngdb.db',
+    'profiler'      => [
+        'file'      => 'sql.log'
+    ]
 ]);
 
 $client = new HtmlWeb();
